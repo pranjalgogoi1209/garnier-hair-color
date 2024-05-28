@@ -3,9 +3,10 @@
   src: url("./../public/Gotham-Black.otf") format("truetype");
 }
 
-/* .gothamBlack {
-  font-family: "GothamBlack", sans-serif;
-} */
+@font-face {
+  font-family: "GothamCondensedMedium";
+  src: url("./../public/Gotham-Medium.otf") format("truetype");
+}
 
 :root {
   --themeColor1: #185327;
@@ -16,7 +17,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "GothamBlack", sans-serif;
+  font-family: sans-serif;
 }
 
 body {
@@ -33,6 +34,29 @@ h1 {
   font-weight: 600;
   text-align: center;
   font-family: "GothamBlack", sans-serif;
+}
+
+h2 {
+  color: var(--themeColor1);
+  font-size: 12vw;
+  font-weight: 600;
+  text-align: center;
+  font-family: "GothamBlack", sans-serif;
+}
+
+h3 {
+  color: var(--themeColor1);
+  font-size: 5vw;
+  font-weight: 600;
+  text-align: center;
+  font-family: "GothamBlack", sans-serif;
+}
+
+.des {
+  color: var(--themeColor1);
+  font-size: 5.2vw;
+  font-weight: 500;
+  font-family: "GothamCondensedMedium", sans-serif;
 }
 
 a {
@@ -95,18 +119,26 @@ button {
   padding: 2vw 4vw;
   border-radius: 6vw;
   background-color: var(--themeColor1);
-  box-shadow: 0 0 2vw rgba(255, 255, 255, 0.5);
+  box-shadow: 1vw 1vw 1vw rgba(0, 0, 0, 0.7);
 }
 
 .btn2 {
-  color: #2e468c;
-  width: 25vw;
+  color: #fff;
+  width: 40vw;
+  font-size: 2.5vw;
+  font-weight: 400;
+  padding: 2vw;
+  border-radius: 6vw;
+  background-color: var(--themeColor1);
+}
+
+.btn3 {
+  color: #fff;
   font-size: 4vw;
-  font-weight: 600;
-  padding: 1vw 2vw;
+  font-weight: 400;
+  padding: 2vw 4vw;
   border-radius: 2vw;
   background-color: var(--themeColor1);
-  box-shadow: 0 0 2vw rgba(255, 255, 255, 0.5);
 }
 
 @keyframes rotate {

@@ -1,18 +1,19 @@
 .OutputPage {
-  /* border: 1px solid #fff; */
-  /* margin-top: 6vw; */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 5vw;
+  background-image: url("./../../assets/cameraPage/cameraPageBg.png");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  padding: 10vw 0;
+  gap: 8vw;
+  justify-content: flex-start !important;
 
-  .headingImgOne {
-    width: 50vw;
+  .logoContainer {
+    width: 60vw;
   }
-  .headingImgTwo {
-    width: 50vw;
+
+  .bottom {
   }
+
   .loader {
     margin-top: 20vw;
     width: 70vw;
@@ -28,10 +29,6 @@
     }
     .btnContainer {
       gap: 3vw;
-      /* .btn {
-          width: 60vw;
-          padding: 1vw 5vw;
-        } */
     }
   }
 }
