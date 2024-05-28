@@ -1,0 +1,32 @@
+.HairColorPage {
+  background-image: url("./../../assets/cameraPage/cameraPageBg.png");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  padding: 10vw 0;
+  gap: 8vw;
+  justify-content: flex-start !important;
+  .logoContainer {
+    width: 60vw;
+  }
+  .bottom {
+    gap: 6vw;
+
+    .imgContainer {
+      width: 40vw;
+      border: 0.6vw solid var(--themeColor1);
+      border-radius: 3vw;
+      img {
+        border-radius: 3vw;
+      }
+    }
+
+    .shades {
+      flex-wrap: wrap;
+      gap: 4vw;
+      .shadeContainer {
+        width: 12vw;
+      }
+    }
+  }
+}
